@@ -12,15 +12,7 @@ paramedical-services-site
 │   │   └── responsive.css
 │   ├── js
 │   │   ├── main.js
-│   │   ├── navigation.js
-│   │   └── contact-form.js
-│   ├── pages
-│   │   ├── about.html
-│   │   ├── services.html
-│   │   ├── contact.html
-│   │   └── testimonials.html
 │   └── index.html
-├── .gitignore
 └── README.md
 ```
 
