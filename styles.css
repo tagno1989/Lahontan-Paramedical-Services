@@ -931,6 +931,9 @@ a {
     .logo-svg{
         width: 64px;
     }
+    .about-list {
+        display: none;
+    }
     
     .menu-toggle {
         display: flex;
