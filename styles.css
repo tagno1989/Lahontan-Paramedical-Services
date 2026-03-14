@@ -124,13 +124,13 @@ a {
 }
 
 .logo-svg {
-    width: 148px;
-    height: auto;
+    width: 248px;
+    height: 100px;
     transition: transform 0.3s ease;
 }
 
 .logo:hover .logo-svg {
-    transform: scale(1.25);
+    transform: scale(1.1);
 }
 
 .logo-icon {
@@ -246,7 +246,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("sierra.jpg");
+    background-image: url("images/sierra.jpg");
     /* radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 80% 20%, rgba(0, 212, 170, 0.1) 0%, transparent 40%);
     animation: pulse-bg 8s ease-in-out infinite alternate; */
@@ -444,7 +444,7 @@ a {
 
 .service-card h3 {
     font-size: 1.3rem;
-    margin-bottom: 12px;
+    margin: 12px 0;
     color: var(--dark);
 }
 
@@ -771,7 +771,11 @@ a {
     flex-direction: column;
     gap: 24px;
 }
-
+.location {
+    cursor: pointer;
+    text-decoration: none;
+    
+}
 .info-card {
     display: flex;
     align-items: flex-start;
@@ -855,10 +859,14 @@ a {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.footer-sub-logo-dot {
+    height: 11rem;
+    width: 13rem;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
 .footer-sub-logo {
-    height: 100px;
-    width: 100px;
-    opacity: 0.6;
+    height: 8rem;
+    width: 14rem;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 

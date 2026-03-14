@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lahontan Paramedical Services</title>
-    <link rel="icon" type="image/svg+xml" href="image.svg">
-    <link rel="icon" type="image/svg+xml" href="download.svg">
+    <link rel="icon" type="image/svg+xml" href="./images/DOT.svg">
+    <link rel="icon" type="image/svg+xml" href="./images/biglogo.svg">
+    <link rel="icon" type="image/svg+xml" href="./images/logo.svg">
+
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -14,8 +16,8 @@
     <header id="header">
         <div class="nav-container">
             <div class="logo">
-                <img src="image.svg" alt="Lahontan Paramedical" class="logo-svg">
-                <span class="logo-text">Lahontan Paramedical</span>
+                <img src="images/biglogo.svg" alt="Lahontan Paramedical" class="logo-svg">
+                <!-- <span class="logo-text">Lahontan Paramedical</span> -->
             </div>
             <nav class="nav-menu">
                 <a href="#home">Home</a>
@@ -83,14 +85,14 @@
                         <h2 class="section-title"> History & Mission</h2>
                         <div class="about-intro-wrapper">
                             <div class="about-main-content">
-                                <p class="about-intro-text">Lahontan Paramedical has been serving Yerington and Lyon County for the past 25 years. Founded by Pamela Hunewill, Lahontan Paramedical has now become a family owned and operated business. We strive to provide a service to our local community and surrounding area.</p>
+                                <p class="about-intro-text">Lahontan Paramedical has been serving Yerington and Lyon County for the past 25 years. Founded by Pamela Hunewill, Lahontan Paramedical is a family owned and operated business. We strive to provide a service to our local community and surrounding area.</p>
                                 <div class="about-sub-section">
                                     <h3 class="sub-title">Our Mission</h3>
-                                    <p>At Lahontan Paramedical, our mission is to provide Non-Dot and Dot Drug and Alcohol Testing. We can also accommodate your CDL physical needs by appointment. We are a CLIA certified Exempt Lab and can provide all of your blood draw and testing needs. We work with a number of major labs such as: Quest, Labcorp, Medtox, CRL, Omega, Alere, Abbott and Escreen. Lahontan Paramedical is a Samsha certified lab and a member of NDASA.</p>
+                                    <p>At Lahontan Paramedical, our mission is to provide Non-Dot and Dot Drug and Alcohol Testing. We can also accommodate your CDL physical needs by appointment. We are a CLIA certified Exempt Lab and can provide all of your testing needs. We work with a number of major labs such as: Quest, Labcorp, Medtox, CRL, Omega, Alere, Abbott and Escreen. Lahontan Paramedical is a Samsha certified lab and a member of NDASA.</p>
                                 </div>
                             </div>
                             <ul class="about-list">
-                                <li><span class="check">✓</span> Certified & Licensed Professionals</li>
+                                <li><span class="check">✓</span> NSADA Certified & Licensed Professionals</li>
                                 <li><span class="check">✓</span> Appointment Based Scheduling</li>
                                 <li><span class="check">✓</span> Serving Northern Nevada</li>
                                 <li><span class="check">✓</span> Fast & Accurate Results</li>
@@ -120,7 +122,7 @@
                     </div>
                     <div class="doctor-card">
                         <div class="member-image-placeholder">
-                            <img src="image.png" alt="Dr. Nightingale">
+                            <img src="./images/dr.img.png" alt="Dr. Nightingale">
                         </div>
                         <h3>Our Doctor</h3>
                         <p>Our Medical Director Doctor Matt Nightingale oversees our Exempt Lab Operations.  He conducts our Department of Transportation physicals and sports physicals.</p>
@@ -154,11 +156,13 @@
                         <p id="response-message" class="response-message"></p>
                     </form>
                     <div class="contact-info">
-                        <div class="info-card">
-                            <span class="info-icon">📍</span>
-                            <h4>Location</h4>
-                            <p>113 N. Main St Yerington, NV 89447</p>
-                        </div>
+                        <a class="location" href="https://www.google.com/maps/search/?api=1&query=113+N+Main+St+Yerington+NV+89447" target="_blank" rel="noopener noreferrer">
+                            <div class="info-card">
+                                <span class="info-icon">📍</span>
+                                <h4>Location</h4>
+                                <p>113 N. Main St Yerington, NV 89447</p>
+                            </div>
+                        </a>
                         <div class="info-card">
                             <span class="info-icon">📞</span>
                             <h4>Phone</h4>
@@ -169,6 +173,12 @@
                             <span class="info-icon">🕐</span>
                             <h4>Hours</h4>
                             <p>Monday, Tuesday & Wednesday<br>By Appointment only</p>
+                        </div>
+                        <div class="info-card">
+                            <span class="info-icon">💰</span>
+                            <h4>Skip The Line</h4>
+                            <p>Pay Now to schedule your appointment</p>
+                            <button></button>
                         </div>
                     </div>
                 </div>
@@ -183,13 +193,15 @@
                 <div class="footer-logo logo">
                     <span>Lahontan Paramedical Services</span>
                 </div>
-                <p class="footer-address">113 N. Main St Yerington, NV 89447</p>
+                <a class="location" href="https://www.google.com/maps/search/?api=1&query=113+N+Main+St+Yerington+NV+89447" target="_blank" rel="noopener noreferrer">
+                    <p class="footer-address">113 N. Main St Yerington, NV 89447</p>
+                </a>
                 <p class="footer-address">775-463-4756</p>
                 <p class="footer-copy">&copy; 2026 Lahontan Paramedical Services. All rights reserved.</p>
                 <div class="bottom-logos">
-                    <img src="image.svg" alt="Lahontan Paramedical" class="footer-sub-logo">
-                    <a href="https://www.transportation.gov/">
-                        <img src="download.svg" alt="Lab Logo" class="footer-sub-logo">
+                    <img src="./images/biglogo.svg" alt="Lahontan Paramedical" class="footer-sub-logo">
+                    <a href="https://www.transportation.gov/" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/DOT.svg" alt="Lab Logo" class="footer-sub-logo-dot">
                     </a>
                 </div>
             </div>
