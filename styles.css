@@ -774,17 +774,19 @@ a {
 .location {
     cursor: pointer;
     text-decoration: none;
-    
+
 }
 .info-card {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     gap: 20px;
     background: var(--light);
     padding: 28px;
     border-radius: var(--radius-md);
     transition: all 0.4s var(--ease-out);
     border: 1px solid transparent;
+
 }
 
 .info-card:hover {
@@ -892,6 +894,9 @@ a {
 .reveal.delay-3 { transition-delay: 0.3s; }
 
 @media (max-width: 1024px) {
+    .logo-svg{
+        transform: scale(1);
+    }
     .about-grid {
         grid-template-columns: 1fr;
         gap: 50px;
@@ -908,6 +913,9 @@ a {
 }
 
 @media (max-width: 768px) {
+    .logo-svg{
+        text-align: center;
+    }
     .nav-menu {
         position: fixed;
         top: 0;
@@ -933,12 +941,7 @@ a {
         font-size: 1.5rem;
         padding: 20px;
     }
-    .logo{
-        gap: 24px;
-    }
-    .logo-svg{
-        width: 64px;
-    }
+    
     .about-list {
         display: none;
     }
@@ -970,8 +973,10 @@ a {
     .testimonial-text {
         font-size: 1.1rem;
     }
+    .bottom-logos{
+        gap: 0;
+    }
 }
-
 @media (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
