@@ -916,6 +916,9 @@ a {
     .logo-svg{
         text-align: center;
     }
+    .nav-container{
+        justify-content: center;
+    }
     .nav-menu {
         position: fixed;
         top: 0;
@@ -972,6 +975,9 @@ a {
     
     .testimonial-text {
         font-size: 1.1rem;
+    }
+    .footer-sub-logo{
+        width:10rem;
     }
     .bottom-logos{
         gap: 0;
