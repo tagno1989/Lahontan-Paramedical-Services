@@ -1,28 +1,24 @@
-# Paramedical Services Website
+# Lahontan Paramedical Services Website
 
-This project is a modernized version of the paramedical services website, designed to provide users with an intuitive and informative experience. The website includes various pages detailing the services offered, company information, client testimonials, and a contact form for inquiries.
+A professional website for Lahontan Paramedical Services, serving Yerington and Lyon County, Nevada. The site provides information about drug and alcohol testing services, DOT physicals, and scheduling.
 
 ## Project Structure
 
 ```
-paramedical-services-site
-├── src
-│   ├── css
-│   │   ├── styles.css
-│   │   └── responsive.css
-│   ├── js
-│   │   ├── main.js
-│   └── index.html
+├── index.html
+├── styles.css
+├── main.js
+├── images/
 └── README.md
 ```
 
 ## Features
 
-- **Homepage**: An overview of the paramedical services offered.
-- **About Page**: Information about the company, its mission, and the team.
-- **Services Page**: Detailed descriptions of the various services available.
-- **Contact Page**: A contact form for inquiries and additional contact information.
-- **Testimonials Page**: Client feedback and testimonials to build trust.
+- **Homepage**: Hero section with an overview of paramedical services offered.
+- **Services**: Specimen collection, medical exams, and turnaround information.
+- **History & Mission**: Company background, mission statement, and certifications.
+- **About Us**: Team and medical director information.
+- **Contact**: Contact form, location, phone number, and business hours.
 
 ## Setup Instructions
 
@@ -32,14 +28,15 @@ paramedical-services-site
    ```
 2. Navigate to the project directory:
    ```
-   cd paramedical-services-site
+   cd Lahontan-Paramedical-Services
    ```
-3. Open the `index.html` file in your web browser to view the website.
+3. Open `index.html` in your web browser to view the website.
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
+- [Formspree](https://formspree.io) for contact form handling
 
 ## Contribution
